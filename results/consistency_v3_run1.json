@@ -1,0 +1,47 @@
+[
+  {
+    "config": "fra-fra",
+    "label": "French mono",
+    "n_corpus": 1548,
+    "splare": {
+      "ndcg@10": 0.6535,
+      "map@10": 0.5902,
+      "recall@10": 0.7422,
+      "precision@10": 0.1521,
+      "mrr": 0.681,
+      "n_queries": 749,
+      "scored": 749,
+      "zero_hits": 0
+    }
+  },
+  {
+    "config": "jpn-jpn",
+    "label": "Japanese mono",
+    "n_corpus": 1601,
+    "splare": {
+      "ndcg@10": 0.7075,
+      "map@10": 0.6672,
+      "recall@10": 0.7906,
+      "precision@10": 0.1567,
+      "mrr": 0.7009,
+      "n_queries": 825,
+      "scored": 825,
+      "zero_hits": 0
+    }
+  },
+  {
+    "config": "deu-eng",
+    "label": "English → German",
+    "n_corpus": 1248,
+    "splare": {
+      "ndcg@10": 0.6645,
+      "map@10": 0.6122,
+      "recall@10": 0.7768,
+      "precision@10": 0.1291,
+      "mrr": 0.6518,
+      "n_queries": 766,
+      "scored": 766,
+      "zero_hits": 0
+    }
+  }
+]

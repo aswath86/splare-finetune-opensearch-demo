@@ -1,0 +1,8 @@
+{
+  "backbone": "google/gemma-2-2b",
+  "sae_repo": "google/gemma-scope-2b-pt-res",
+  "sae_layer": 18,
+  "sae_width": 65,
+  "sae_l0": 116,
+  "bidirectional": true
+}

@@ -1,0 +1,17 @@
+{
+  "config": "fra-fra",
+  "ingest_mid": "SO51Gp4BfgrvFeSnrosR",
+  "query_mid": "TO51Gp4BfgrvFeSnw4t2",
+  "ndcg@10": 0.6737,
+  "map@10": 0.6127,
+  "recall@10": 0.762,
+  "mrr": 0.6959,
+  "n_queries": 749,
+  "scored": 749,
+  "zero_hits": 0,
+  "baselines": {
+    "v3_cached": 0.657,
+    "v6_cached": 0.6571,
+    "v7_stacked_default": 0.6676
+  }
+}

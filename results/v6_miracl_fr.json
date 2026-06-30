@@ -1,0 +1,16 @@
+[
+  {
+    "lang": "fr",
+    "n_corpus": 10000,
+    "splare": {
+      "ndcg@10": 0.7576,
+      "map@10": 0.6508,
+      "recall@10": 0.9783,
+      "precision@10": 0.209,
+      "mrr": 0.7274,
+      "n_queries": 100,
+      "scored": 100,
+      "zero_hits": 0
+    }
+  }
+]

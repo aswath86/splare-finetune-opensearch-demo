@@ -1,0 +1,62 @@
+[
+  {
+    "config": "jpn-jpn",
+    "label": "Japanese mono",
+    "n_corpus": 1601,
+    "splare": {
+      "ndcg@10": 0.7071,
+      "map@10": 0.6653,
+      "recall@10": 0.7946,
+      "precision@10": 0.1576,
+      "mrr": 0.698,
+      "n_queries": 825,
+      "scored": 825,
+      "zero_hits": 0
+    }
+  },
+  {
+    "config": "spa-spa",
+    "label": "Spanish mono",
+    "n_corpus": 1941,
+    "splare": {
+      "ndcg@10": 0.5499,
+      "map@10": 0.478,
+      "recall@10": 0.6376,
+      "precision@10": 0.1589,
+      "mrr": 0.5869,
+      "n_queries": 793,
+      "scored": 793,
+      "zero_hits": 0
+    }
+  },
+  {
+    "config": "jpn-eng",
+    "label": "English → Japanese",
+    "n_corpus": 1601,
+    "splare": {
+      "ndcg@10": 0.6665,
+      "map@10": 0.62,
+      "recall@10": 0.7635,
+      "precision@10": 0.1506,
+      "mrr": 0.6555,
+      "n_queries": 822,
+      "scored": 822,
+      "zero_hits": 0
+    }
+  },
+  {
+    "config": "deu-eng",
+    "label": "English → German",
+    "n_corpus": 1248,
+    "splare": {
+      "ndcg@10": 0.666,
+      "map@10": 0.6162,
+      "recall@10": 0.7699,
+      "precision@10": 0.1282,
+      "mrr": 0.6573,
+      "n_queries": 766,
+      "scored": 766,
+      "zero_hits": 0
+    }
+  }
+]

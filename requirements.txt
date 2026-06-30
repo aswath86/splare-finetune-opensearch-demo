@@ -1,0 +1,19 @@
+# Minimal deps for running the prep + eval + deployment scripts on the host.
+# (SageMaker containers install their own deps via src/requirements.txt when
+# the training/endpoint is launched.)
+
+# Data prep + scoring
+datasets>=2.19,<4
+huggingface_hub<0.26
+requests>=2.31
+
+# SageMaker client (for submit_sagemaker.py + deploy_endpoint.py)
+sagemaker>=2.230,<3
+boto3>=1.34
+
+# Optional: for running smoke tests or local inference against the checkpoint
+# torch>=2.3
+# transformers>=4.44,<4.50
+# peft==0.11.1
+# accelerate>=0.32,<0.35
+# safetensors>=0.4

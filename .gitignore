@@ -1,0 +1,21 @@
+# .venv / pycache
+.venv/
+__pycache__/
+*.pyc
+
+# Downloaded eval + training data (reproducible from prep scripts)
+data/
+miracl_eval/
+mldr_eval/
+mlqa_eval/
+xpqa_corpus/
+
+# Runtime artifacts
+*.log
+*.pid
+*.flag
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

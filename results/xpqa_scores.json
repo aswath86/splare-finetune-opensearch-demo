@@ -1,0 +1,122 @@
+[
+  {
+    "config": "fra-fra",
+    "label": "French mono",
+    "splare": {
+      "ndcg@10": 0.6566,
+      "map@10": 0.596,
+      "recall@10": 0.7428,
+      "precision@10": 0.1529,
+      "zero": 0,
+      "scored": 749
+    },
+    "mlv1": {
+      "ndcg@10": 0.5609,
+      "map@10": 0.5014,
+      "recall@10": 0.6329,
+      "precision@10": 0.1302,
+      "zero": 0,
+      "scored": 749
+    }
+  },
+  {
+    "config": "jpn-jpn",
+    "label": "Japanese mono",
+    "splare": {
+      "ndcg@10": 0.7099,
+      "map@10": 0.6718,
+      "recall@10": 0.7889,
+      "precision@10": 0.1572,
+      "zero": 0,
+      "scored": 825
+    },
+    "mlv1": {
+      "ndcg@10": 0.5906,
+      "map@10": 0.5473,
+      "recall@10": 0.6627,
+      "precision@10": 0.1342,
+      "zero": 0,
+      "scored": 825
+    }
+  },
+  {
+    "config": "spa-spa",
+    "label": "Spanish mono",
+    "splare": {
+      "ndcg@10": 0.5634,
+      "map@10": 0.4908,
+      "recall@10": 0.652,
+      "precision@10": 0.1615,
+      "zero": 0,
+      "scored": 793
+    },
+    "mlv1": {
+      "ndcg@10": 0.4781,
+      "map@10": 0.4069,
+      "recall@10": 0.5597,
+      "precision@10": 0.1388,
+      "zero": 0,
+      "scored": 793
+    }
+  },
+  {
+    "config": "fra-eng",
+    "label": "English\u2192French",
+    "splare": {
+      "ndcg@10": 0.618,
+      "map@10": 0.5581,
+      "recall@10": 0.7052,
+      "precision@10": 0.1455,
+      "zero": 0,
+      "scored": 749
+    },
+    "mlv1": {
+      "ndcg@10": 0.3241,
+      "map@10": 0.2726,
+      "recall@10": 0.4075,
+      "precision@10": 0.0808,
+      "zero": 0,
+      "scored": 749
+    }
+  },
+  {
+    "config": "jpn-eng",
+    "label": "English\u2192Japanese",
+    "splare": {
+      "ndcg@10": 0.6724,
+      "map@10": 0.6281,
+      "recall@10": 0.7616,
+      "precision@10": 0.1507,
+      "zero": 0,
+      "scored": 822
+    },
+    "mlv1": {
+      "ndcg@10": 0.1929,
+      "map@10": 0.1568,
+      "recall@10": 0.2679,
+      "precision@10": 0.0526,
+      "zero": 0,
+      "scored": 822
+    }
+  },
+  {
+    "config": "deu-eng",
+    "label": "English\u2192German",
+    "splare": {
+      "ndcg@10": 0.678,
+      "map@10": 0.6288,
+      "recall@10": 0.7823,
+      "precision@10": 0.1302,
+      "zero": 0,
+      "scored": 766
+    },
+    "mlv1": {
+      "ndcg@10": 0.3274,
+      "map@10": 0.2822,
+      "recall@10": 0.4294,
+      "precision@10": 0.0702,
+      "zero": 0,
+      "scored": 766
+    }
+  }
+]

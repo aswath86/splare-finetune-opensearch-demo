@@ -1,0 +1,17 @@
+[
+  {
+    "config": "fra-fra",
+    "label": "French mono",
+    "n_corpus": 1548,
+    "splare": {
+      "ndcg@10": 0.0033,
+      "map@10": 0.0017,
+      "recall@10": 0.0056,
+      "precision@10": 0.0013,
+      "mrr": 0.0039,
+      "n_queries": 749,
+      "scored": 749,
+      "zero_hits": 0
+    }
+  }
+]

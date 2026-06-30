@@ -1,0 +1,12 @@
+[
+  {
+    "config": "fra-fra",
+    "label": "French mono",
+    "n_corpus": 1548,
+    "splare": {
+      "n_queries": 749,
+      "scored": 0,
+      "zero_hits": 749
+    }
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "cell": "xpqa-fra-fra",
+    "error": "'ndcg@10'"
+  },
+  {
+    "cell": "xpqa-jpn-jpn",
+    "error": "'ndcg@10'"
+  },
+  {
+    "cell": "xpqa-spa-spa",
+    "error": "'ndcg@10'"
+  }
+]

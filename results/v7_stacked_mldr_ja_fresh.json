@@ -1,0 +1,16 @@
+[
+  {
+    "lang": "ja",
+    "n_corpus": 10000,
+    "splare": {
+      "ndcg@10": 0.2999,
+      "map@10": 0.2623,
+      "recall@10": 0.42,
+      "precision@10": 0.042,
+      "mrr": 0.2623,
+      "n_queries": 200,
+      "scored": 200,
+      "zero_hits": 0
+    }
+  }
+]

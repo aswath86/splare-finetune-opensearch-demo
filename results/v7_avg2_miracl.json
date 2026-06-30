@@ -1,0 +1,11 @@
+[
+  {
+    "lang": "fr",
+    "n_corpus": 10000,
+    "splare": {
+      "n_queries": 100,
+      "scored": 0,
+      "zero_hits": 100
+    }
+  }
+]

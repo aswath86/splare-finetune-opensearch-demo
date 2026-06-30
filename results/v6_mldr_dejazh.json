@@ -1,0 +1,30 @@
+[
+  {
+    "lang": "de",
+    "n_corpus": 10000,
+    "splare": {
+      "ndcg@10": 0.2264,
+      "map@10": 0.1963,
+      "recall@10": 0.325,
+      "precision@10": 0.0325,
+      "mrr": 0.1963,
+      "n_queries": 200,
+      "scored": 200,
+      "zero_hits": 0
+    }
+  },
+  {
+    "lang": "ja",
+    "n_corpus": 10000,
+    "splare": {
+      "ndcg@10": 0.3109,
+      "map@10": 0.2725,
+      "recall@10": 0.435,
+      "precision@10": 0.0435,
+      "mrr": 0.2725,
+      "n_queries": 200,
+      "scored": 200,
+      "zero_hits": 0
+    }
+  }
+]
