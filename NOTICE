@@ -1,0 +1,26 @@
+splare-finetune-opensearch-demo
+Copyright 2026 aswath86
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+------------------------------------------------------------------------------
+Third-party components and model terms
+------------------------------------------------------------------------------
+
+The Apache-2.0 license above covers the CODE in this repository. The trained
+model artifact and the components it is built on carry their own terms:
+
+- artifacts_v3/ (LoRA adapter + tokenizer): derived from Google's Gemma-2-2B
+  and is subject to the Gemma Terms of Use and Prohibited Use Policy.
+  https://ai.google.dev/gemma/terms
+
+- Gemma-2-2B backbone — Google, Gemma Terms of Use.
+- Gemma Scope Sparse Autoencoder — Google DeepMind (downloaded at runtime).
+
+Method reproduced from:
+  "Learning Retrieval Models with Sparse Autoencoders"
+  Formal, Louis, Dejean, Clinchant (NAVER LABS Europe), ICLR 2026.
+  https://arxiv.org/abs/2603.13277
+
+Evaluated against opensearch-neural-sparse-encoding-multilingual-v1
+(Apache-2.0, OpenSearch project).

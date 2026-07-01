@@ -158,3 +158,14 @@ This work is a reproduction and OpenSearch integration of the SPLARE method:
 
 There is no public SPLARE checkpoint; the model here was built from open components
 (Gemma-2-2B + Gemma Scope SAE + a LoRA adapter) following the paper's recipe.
+
+---
+
+## License
+
+Code in this repository is licensed under **Apache License 2.0** (see [`LICENSE`](./LICENSE)),
+matching the OpenSearch ecosystem.
+
+Note: the trained model artifact in `artifacts_v3/` is derived from Google's Gemma-2-2B
+and remains subject to the [Gemma Terms of Use](https://ai.google.dev/gemma/terms),
+independent of this repository's license. See [`NOTICE`](./NOTICE) for details.
