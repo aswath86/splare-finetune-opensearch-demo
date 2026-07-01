@@ -144,3 +144,17 @@ Doc-side Top-K=400 is asymmetric against query-side natural sparsity
 / `k=400` docs and is what unlocks the SPLARE-wins-everywhere result. Capping
 docs at the endpoint (Top-K=40 for both) gave mlv1 a misleading advantage on
 MIRACL in earlier experiments; the asymmetric Top-K (q=40 / docs=400) fixes this.
+
+---
+
+## References
+
+This work is a reproduction and OpenSearch integration of the SPLARE method:
+
+- **Learning Retrieval Models with Sparse Autoencoders** — Thibault Formal, Maxime
+  Louis, Hervé Déjean, Stéphane Clinchant (NAVER LABS Europe), ICLR 2026.
+  - Abstract: https://arxiv.org/abs/2603.13277
+  - PDF: https://arxiv.org/pdf/2603.13277
+
+There is no public SPLARE checkpoint; the model here was built from open components
+(Gemma-2-2B + Gemma Scope SAE + a LoRA adapter) following the paper's recipe.
